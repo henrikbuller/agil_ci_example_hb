@@ -1,6 +1,5 @@
 import assert from "assert"
 import {toRobber, toNormal, toAllsprak} from "./../src/translators.js"
-import {describe} from "mocha";
 
 describe("Translators", function () {
     describe("#toRobber", function () {
