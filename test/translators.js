@@ -9,13 +9,14 @@ describe("Translators", function () {
         it("should work for simple input", function () {
             assert.strictEqual(toRobber("Hejsan hoppsan!"), "Hohejojsosanon hohopoppopsosanon!")
         })
-        describe("#toAllsprak", function () {
-            it("should work form empty string", function () {
-                assert.strictEqual(toAllsprak(""), "")
-            })
-            it("should work for simple input", function () {
-                assert.strictEqual(toAllsprak("Hejsan hoppsan!"), "Hallejsan halloppsan!")
-            })
+    })
+
+    describe("#toAllsprak", function () {
+        it("should work form empty string", function () {
+            assert.strictEqual(toAllsprak(""), "")
+        })
+        it("should work for simple input", function () {
+            assert.strictEqual(toAllsprak("Hejsan hoppsan!"), "Hallejsan halloppsan!")
         })
     })
 
